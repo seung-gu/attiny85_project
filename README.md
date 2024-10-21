@@ -10,8 +10,7 @@ Arduino ISP by using a PCB board for wiring from Arduino UNO :
 https://www.electronics-lab.com/project/attiny85-8-pin-arduino-programing-shield/
 
 
-### Feature configuration settings
+### avrdude fuse bit setup
 
-![Alt text](image.png)
 https://www.engbedded.com/fusecalc/
 
