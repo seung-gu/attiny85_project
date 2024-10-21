@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   int delay_time = random(20, 100);
-  analogWrite(ledPin, constrain(brightness + random(-20, 20), 50, 175));   // LED 밝기 + 불규칙 요소
+  analogWrite(ledPin, constrain(brightness + random(-20, 20), 50, 175)); 
   brightness = brightness + fadeAmount;
   
 
@@ -27,5 +27,5 @@ void loop() {
     }  
   }
 
-  delay(delay_time);  // 랜덤한 딜레이
+  delay(delay_time);  // random delay
 }
